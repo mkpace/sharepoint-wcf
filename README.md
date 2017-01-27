@@ -1,8 +1,11 @@
 # sharepoint-wcf
 
-Sample code for custom application API providing access to SharePoint Server API. 
+Sample code for custom application API providing access to SharePoint Server API.
+I designed and coded this WCF as part of a "full stack" project I worked on at Amazon as a solution architect and developer.
 
-The entity diagram for the codebase:
+The presentation or "front-end" to this project using the same system design philosophy (SoC & SOA) is here. LegalPortal is a separate project, but uses the same system design and unique development/deployment techniques: [LegalPortal](https://github.com/nuveminc/legalportal)
+
+The entity diagrams for the codebase:
 
 #Persistence Layer
 Clean separation of concerns (SoC) within the persistence layer.
