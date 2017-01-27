@@ -1,0 +1,2 @@
+﻿<%@ Assembly Name="Amazon.Kingpin.WCF2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7f93f483c182231"%>
+<%@ ServiceHost Service="Amazon.Kingpin.WCF2.API.Services.Data.FileUpload" %>

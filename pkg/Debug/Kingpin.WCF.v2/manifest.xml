@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0d06d775-6ba7-4247-879c-d2e04563155a" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Newtonsoft.Json.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="CsvHelper.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Amazon.Kingpin.WCF2.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="ISAPI\Kingpin\v2\web.config" />
+    <RootFile Location="ISAPI\Kingpin\v2\Data.svc" />
+    <RootFile Location="ISAPI\Kingpin\v2\Export.svc" />
+    <RootFile Location="ISAPI\Kingpin\v2\Import.svc" />
+    <RootFile Location="ISAPI\Kingpin\v2\Publish.svc" />
+    <RootFile Location="ISAPI\Kingpin\v2\FileUpload.svc" />
+  </RootFiles>
+</Solution>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0d06d775-6ba7-4247-879c-d2e04563155a" solutionId="0d06d775-6ba7-4247-879c-d2e04563155a" resetWebServer="false" sharePointProductVersion="15.0" name="Kingpin.WCF.v2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll" />
+    <customAssembly location="CsvHelper.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\CsvHelper.2.13.2.0\lib\net40-client\CsvHelper.dll" />
+  </assemblies>
+  <projectItems>
+    <projectItemReference itemId="ec7e7f13-039a-41d6-b5dc-2b23785645ae" />
+  </projectItems>
+</package>

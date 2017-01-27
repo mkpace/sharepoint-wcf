@@ -1,0 +1,5 @@
+c:\users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Kingpin.WCF.csprojResolveAssemblyReference.cache
+c:\users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Kingpin.WCF.dll
+c:\users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Kingpin.WCF.pdb
+c:\users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Kingpin.WCF.dll
+c:\users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Kingpin.WCF.pdb

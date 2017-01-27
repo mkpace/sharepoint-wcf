@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Kingpin Lookup Entities.&#xD;&#xA;Provide both enumerated values for entities (TODO: break out data tables e.g. Admin/Lockdown, etc.)">
+    <Position X="11.337" Y="1.783" Height="1.036" Width="2.423" />
+  </Comment>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.Admin">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCKAAAAAAAIACQgACQAABAAAgAAACAIAgAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\Admin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.CategoryL1">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\Lookup\Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.CategoryL2">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.ConfigList">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASIAAAAIAAIAAAAAAAAAMAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\ConfigList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.Customer">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\Lookup\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.EntityIndex">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\EntityIndex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.EntityLinks">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\EntityLinks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.GoalSet">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAA=</HashCode>
+      <FileName>Classes\Lookup\GoalSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.GoalSetLock">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Lookup\GoalSetLock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.KingpinLockdown">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\KingpinLockdown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.OneOffConfiguration">
+    <Position X="5.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\OneOffConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.PerspectiveInstance">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiYAAAAEAAAAAAAAAFAEAAAAAAEAAAAAgCAAAAAI=</HashCode>
+      <FileName>Classes\Lookup\PerspectiveInstance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.Team">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGIAACBCAAAAAAAAEAAAAABAAAAAAAwAAEgAAAAA=</HashCode>
+      <FileName>Classes\Lookup\Team.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Classes.Lookup.VP" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lookup\VP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Amazon.Kingpin.WCF2.Classes.Base.IKPItem">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAIAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IKPItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

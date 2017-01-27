@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Classes are represented in data flow order - input is received through API (Kingpin-API diagram) and handed off to one of the repositories to call into the DataAccess layer which calls into DataProvider">
+    <Position X="0.5" Y="0.5" Height="0.906" Width="3.096" />
+  </Comment>
+  <Comment CommentText="Allow CRUD operations on Entities">
+    <Position X="3.75" Y="1" Height="0.396" Width="2.346" />
+  </Comment>
+  <Comment CommentText="Allow CRUD operations on Lookups">
+    <Position X="6.5" Y="1" Height="0.396" Width="2.315" />
+  </Comment>
+  <Comment CommentText="Thin layer wrapping SPDataProvider with Kingpin specific data access. Returns mapped objects from SPDataProvider">
+    <Position X="12.719" Y="0.5" Height="0.896" Width="2.46" />
+  </Comment>
+  <Comment CommentText="SharePoint specific DataProvider - returns SP specific objects to SPDataAccess">
+    <Position X="16.5" Y="0.5" Height="0.615" Width="2.44" />
+  </Comment>
+  <Comment CommentText="Base class for Entities &amp; Lookups">
+    <Position X="9.498" Y="0.994" Height="0.396" Width="2.315" />
+  </Comment>
+  <Class Name="Amazon.Kingpin.WCF2.Data.Providers.SPDataProvider">
+    <Position X="16.5" Y="1.5" Width="2.5" />
+    <NestedTypes>
+      <Class Name="Amazon.Kingpin.WCF2.Data.Providers.SPDataProvider.SPSiteCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataPersistence\Providers\SPDataProvider.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ASIBSACIADAAACDAQAAhJJFAAABAABBRQAAAAAIoABI=</HashCode>
+      <FileName>DataPersistence\Providers\SPDataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Data.Access.SPDataAccess">
+    <Position X="12.75" Y="1.5" Width="3.25" />
+    <Members>
+      <Method Name="~SPDataAccess" Hidden="true" />
+      <Method Name="ConvertToSPType" Hidden="true" />
+      <Method Name="CreateEntityObjects" Hidden="true" />
+      <Method Name="CreateKPListItem" Hidden="true" />
+      <Method Name="CreateLibraryObjects" Hidden="true" />
+      <Method Name="GetChildTeams" Hidden="true" />
+      <Method Name="GetKPListItemByKPID" Hidden="true" />
+      <Method Name="GetKPTeamListItemCAML" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEQBqBAQIIAIIAEAHBJAACEcBRAwAIDCVAIAEAIFGAE=</HashCode>
+      <FileName>DataPersistence\Access\SPDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Repositories.LookupRepository&lt;T&gt;">
+    <Position X="6.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAQAAAAAAgEAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\LookupRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Repositories.Base.EntityRepository&lt;T&gt;">
+    <Position X="3.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAACAAAAAAUAAAAACgEAAAAAACAACAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\EntityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Repositories.DomainManager">
+    <Position X="0.5" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgCBUAAAAAAgAQAGABAgIgAAAAYAACIEQBBAQYcEABA=</HashCode>
+      <FileName>Repositories\Managers\DomainManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.Repositories.Base.BaseRepository&lt;T&gt;">
+    <Position X="9.25" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAEAACAAAAQAIgAgAgAAAAAAEAAAKAAAAAQA=</HashCode>
+      <FileName>Repositories\Base\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amazon.Kingpin.WCF2.DataPersistence.Access.EntityCache&lt;T&gt;">
+    <Position X="9.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAABAgAAAAAAAAAAQAAAAEBAQQACAA=</HashCode>
+      <FileName>DataPersistence\Access\EntityCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

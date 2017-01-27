@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97B71AE9-30EE-4350-ADB4-09D15E4176B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Amazon.Kingpin.WCF2</RootNamespace>
+    <AssemblyName>Amazon.Kingpin.WCF2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TokenReplacementFileExtensions>svc</TokenReplacementFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TokenReplacementFileExtensions>svc</TokenReplacementFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.2.13.2.0\lib\net40-client\CsvHelper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\markpace\GitFarm\Kingpin\main\_supplements\OpenXML\references\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenXMLWord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=da716f17c841b96a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\markpace\GitFarm\Kingpin\main\_supplements\OpenXML\Word\OpenXMLWord\bin\Debug\OpenXMLWord.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\Interfaces\IDataSvc.cs" />
+    <Compile Include="API\Interfaces\IFileUpload.cs" />
+    <Compile Include="API\Services\Data\Data.cs" />
+    <Compile Include="API\Services\Data\DataCache.cs" />
+    <Compile Include="API\Services\Data\DataEntity.cs" />
+    <Compile Include="API\Services\Data\DataLookup.cs" />
+    <Compile Include="API\Services\Data\FileUpload.cs" />
+    <Compile Include="API\Services\Import\Import.cs" />
+    <Compile Include="API\Interfaces\IImport.cs" />
+    <Compile Include="Classes\Entities\Checkpoints\Checkpoint.cs" />
+    <Compile Include="Classes\Entities\KPItemVersion.cs" />
+    <Compile Include="Classes\Entities\Views\View.cs" />
+    <Compile Include="Classes\Interfaces\IKPEntity.cs" />
+    <Compile Include="Classes\Interfaces\IKPItem.cs" />
+    <Compile Include="Classes\Lookup\Announcement.cs" />
+    <Compile Include="Classes\Lookup\EntityIndex.cs" />
+    <Compile Include="Classes\Entities\Reports\Report.cs" />
+    <Compile Include="Classes\Entities\Accomplishments\Accomplishment.cs" />
+    <Compile Include="Classes\Entities\AuditItems\AuditItem.cs" />
+    <Compile Include="Classes\Entities\EffortInstances\EffortInstance.cs" />
+    <Compile Include="Classes\Entities\EntityContainer.cs" />
+    <Compile Include="Classes\Entities\KeyInsightsInnovations\KeyInsightInnovation.cs" />
+    <Compile Include="Classes\Entities\Milestones\Milestone.cs" />
+    <Compile Include="Classes\Entities\Projects\Project.cs" />
+    <Compile Include="Classes\Entities\Users\User.cs" />
+    <Compile Include="Classes\Lookup\Admin.cs" />
+    <Compile Include="Classes\Lookup\EntityLinks.cs" />
+    <Compile Include="Classes\Lookup\KingpinLockdown.cs" />
+    <Compile Include="Classes\Lookup\Customer.cs" />
+    <Compile Include="Classes\Lookup\GoalSetLock.cs" />
+    <Compile Include="Classes\Lookup\PerspectiveInstance.cs" />
+    <Compile Include="Classes\Lookup\Theme.cs" />
+    <Compile Include="Classes\Lookup\VP.cs" />
+    <Compile Include="Classes\Lookup\OneOffConfiguration.cs" />
+    <Compile Include="Classes\Entities\Documents\Document.cs" />
+    <Compile Include="DataPersistence\Access\EntityCache.cs" />
+    <Compile Include="DataPersistence\Helpers\KPContentType.cs" />
+    <Compile Include="DataPersistence\Helpers\KPFieldType.cs" />
+    <Compile Include="Diagnostics\KPTimer.cs" />
+    <Compile Include="Diagnostics\UserLogging.cs" />
+    <Compile Include="Http\ErrorResponse.cs" />
+    <Compile Include="Http\HttpUtilities.cs" />
+    <Compile Include="Http\JSON.cs" />
+    <Compile Include="Http\MultipartParser.cs" />
+    <Compile Include="Importing\Entities\ColumnDefinition.cs" />
+    <Compile Include="Importing\Entities\ImportConfig.cs" />
+    <Compile Include="Importing\Entities\ImportStatus.cs" />
+    <Compile Include="Importing\Entities\LookupField.cs" />
+    <Compile Include="Importing\Utilities\ImportUtilities.cs" />
+    <Compile Include="Classes\Lookup\ConfigList.cs" />
+    <Compile Include="Classes\Base\BaseEntity.cs" />
+    <Compile Include="Classes\Base\BaseItem.cs" />
+    <Compile Include="DataPersistence\Helpers\KPListItem.cs" />
+    <Compile Include="Importing\Exceptions\BaseException.cs" />
+    <Compile Include="Importing\Exceptions\ColumnNotFoundException.cs" />
+    <Compile Include="Importing\Exceptions\ErrorObject.cs" />
+    <Compile Include="Importing\Exceptions\ColumnUpdateException.cs" />
+    <Compile Include="Importing\Exceptions\NullGUIDException.cs" />
+    <Compile Include="Importing\Exceptions\RequiredKeyFieldException.cs" />
+    <Compile Include="Importing\Exceptions\UpdateOnlyTemplateException.cs" />
+    <Compile Include="Importing\Exceptions\ImportException.cs" />
+    <Compile Include="Importing\ImportConstants.cs" />
+    <Compile Include="Importing\Entities\MappedColumns.cs" />
+    <Compile Include="Importing\SheetImport.cs" />
+    <Compile Include="Importing\Utilities\ImportValidationUtilities.cs" />
+    <Compile Include="Importing\Utilities\TemplateMapping.cs" />
+    <Compile Include="Importing\Utilities\WorksheetUtilities.cs" />
+    <Compile Include="Classes\Entities\Goals\Goal.cs" />
+    <Compile Include="Classes\Lookup\GoalSet.cs" />
+    <Compile Include="Classes\Lookup\Category.cs" />
+    <Compile Include="Classes\Lookup\Team.cs" />
+    <Compile Include="Importing\ImportType.cs" />
+    <Compile Include="Importing\Entities\MappingData.cs" />
+    <Compile Include="Diagnostics\EventLogger.cs" />
+    <Compile Include="Exceptions\NoDataException.cs" />
+    <Compile Include="Http\Response.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataPersistence\Access\SPDataAccess.cs" />
+    <Compile Include="Repositories\Base\EntityRepository.cs" />
+    <Compile Include="Repositories\Base\LookupRepository.cs" />
+    <Compile Include="Repositories\Base\BaseRepository.cs" />
+    <Compile Include="Repositories\Lookup\CategoryL2Repository.cs" />
+    <Compile Include="Repositories\Lookup\ConfigListRepository.cs" />
+    <Compile Include="Repositories\Managers\DomainManager.cs" />
+    <Compile Include="Repositories\Entity\GoalRepository.cs" />
+    <Compile Include="Repositories\Lookup\CategoryL1Repository.cs" />
+    <Compile Include="Repositories\Lookup\CustomerRepository.cs" />
+    <Compile Include="Repositories\Lookup\GoalSetRepository.cs" />
+    <Compile Include="Repositories\Lookup\VPRepository.cs" />
+    <Compile Include="Repositories\Lookup\TeamRepository.cs" />
+    <Compile Include="Repositories\Managers\EntityManager.cs" />
+    <Compile Include="Repositories\Managers\LookupManager.cs" />
+    <Compile Include="Security\KPUser.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="DataPersistence\Providers\SPDataProvider.cs" />
+    <Compile Include="Utilities\KPUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Class Diagrams\Kingpin-Entities.cd" />
+    <None Include="Class Diagrams\Kingpin-Lookups.cd" />
+    <None Include="Class Diagrams\Kingpin-Persistence.cd" />
+    <None Include="DataAccessLayer.cd" />
+    <None Include="ISAPI\Kingpin\v2\web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ISAPI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec7e7f13-039a-41d6-b5dc-2b23785645ae}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{0d06d775-6ba7-4247-879c-d2e04563155a}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="API\Services\Export\" />
+    <Folder Include="API\Services\Report\" />
+    <Folder Include="Features\" />
+    <Folder Include="Reporting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ISAPI\Kingpin\v2\Data.svc" />
+    <Content Include="ISAPI\Kingpin\v2\Export.svc" />
+    <Content Include="ISAPI\Kingpin\v2\Import.svc" />
+    <Content Include="ISAPI\Kingpin\v2\Publish.svc" />
+    <Content Include="ISAPI\Kingpin\v2\FileUpload.svc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

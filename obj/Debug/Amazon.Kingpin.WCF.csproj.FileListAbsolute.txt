@@ -1,0 +1,10 @@
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Amazon.Kingpin.WCF.v2.dll
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Amazon.Kingpin.WCF.v2.pdb
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\OpenXMLWord.dll
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\bin\Debug\OpenXMLWord.pdb
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Amazon.Kingpin.WCF.v2.dll
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Amazon.Kingpin.WCF.v2.pdb
+C:\Users\pacemark\documents\visual studio 2013\Projects\Kingpin.WCF\Kingpin.WCF\obj\Debug\Amazon.Kingpin.WCF.csprojResolveAssemblyReference.cache

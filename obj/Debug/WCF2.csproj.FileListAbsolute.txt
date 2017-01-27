@@ -1,0 +1,14 @@
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\Amazon.Kingpin.WCF2.dll.config
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\Amazon.Kingpin.WCF2.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\Amazon.Kingpin.WCF2.pdb
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\CsvHelper.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\DocumentFormat.OpenXml.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\OpenXMLWord.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\CsvHelper.pdb
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\CsvHelper.xml
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\OpenXMLWord.pdb
+D:\markpace\GitFarm\Kingpin\main\WCF2\obj\Debug\WCF2.csprojResolveAssemblyReference.cache
+D:\markpace\GitFarm\Kingpin\main\WCF2\obj\Debug\Amazon.Kingpin.WCF2.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\obj\Debug\Amazon.Kingpin.WCF2.pdb
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\Newtonsoft.Json.dll
+D:\markpace\GitFarm\Kingpin\main\WCF2\bin\Debug\Newtonsoft.Json.xml

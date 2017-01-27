@@ -1,0 +1,1 @@
+bin\x64\Debug\Kingpin.WCF.v2.wsp

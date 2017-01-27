@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost Language="C#" Debug="true"
+    Service="Amazon.Kingpin.WCF2.API.Services.Import.Import, $SharePoint.Project.AssemblyFullName$"
+    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressWebServiceHostFactory, 
+    Microsoft.SharePoint.Client.ServerRuntime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
